@@ -1,0 +1,42 @@
+@import 'index.css';
+
+.good {
+    margin: auto 10%;
+    float: right;
+    width: 80%;
+    text-align: center;
+    padding: 10px;
+
+}
+
+
+.good .howTo {
+    border-bottom: 1px solid #b5b5b5;
+    margin-bottom: 20px;
+}
+
+.goodTitle {
+    direction: rtl;
+    text-align: right;
+    font-size: 20px;
+    color: #616161;
+}
+
+.goodText {
+    direction: rtl;
+    text-align: right;
+    margin-bottom: 20px;
+    color: #616161;
+
+    font-size: 13.249999px;
+}
+
+.down {
+    height: 100%;
+    margin: 1px 1px;
+}
+
+.request {
+    box-shadow: 0 4px 68px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+}
