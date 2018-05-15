@@ -356,8 +356,6 @@ img {
     width: 100%;
 }
 
-
-
 .luxury {
     background-color: blue;
     margin: 25% auto;
@@ -442,11 +440,6 @@ html {
     margin-bottom: 15px;
 }
 
-
-
-
-
-
 .left9 {
     writing-mode: vertical-rl;
     display: inline-block;
@@ -477,10 +470,6 @@ html {
     font-size: 19px;
     color: #aaa;
 }
-
-
-
-
 
 .cityOption {
 }
@@ -563,7 +552,9 @@ html {
 }
 
 ::selection {
+
     background: gray;
+
     text-shadow: none;
 }
 
@@ -839,8 +830,6 @@ textarea {
     font-size: 13px;
 }
 
-
-
 .contactus {
     float: right;
     width: 100%;
@@ -852,8 +841,6 @@ textarea {
 contactus h5 {
     padding: 0;
 }
-
-
 
 .site {
     background-color: #e1e8ea;
@@ -916,8 +903,6 @@ contactus h5 {
     padding: 3px;
     margin: auto 36px;
 }
-
-
 
 .contactSendbutton {
     float: left;
@@ -1031,7 +1016,9 @@ contactus h5 {
     border: 2px solid #aaa;
     box-shadow: 0 1px 1px 2px rgba(0, 0, 0, 0.1);
     text-decoration: none;
+
     height: 51px;
+
 }
 
 .menuAbout:hover,
@@ -1049,6 +1036,7 @@ contactus h5 {
     width: 90px;
     color: #424242;
     height: 51px;
+
     float: right;
     border: 2px solid #aaa;
     box-shadow: 0 1px 1px 2px rgba(0, 0, 0, 0.1);
@@ -1073,7 +1061,6 @@ contactus h5 {
 .menuPrivacy:hover > .menuPrivacyText {
     color: #fff;
     font-size: 13px;
-
 }
 
 .menuAbout > .menuAboutPic {
@@ -1173,4 +1160,3 @@ contactus h5 {
     background-position: center;
     background-size: 45px;
 }
-
