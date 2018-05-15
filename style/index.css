@@ -1,0 +1,1176 @@
+@font-face {
+    font-family: 'Shabnam';
+    src: url('font/Shabnam.eot');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url(//fonts.googleapis.com/css?family=Open+Sans);
+@font-face {
+    font-family: 'Shabnam';
+    src: url('font/Shabnam.eot') format('eot'),
+    url('font/Shabnam.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.search {
+    display: inline-block;
+    width: 30%;
+}
+
+.up {
+    /*padding: 10px;*/
+    /*margin: 30px auto;*/
+    margin: 0px 10%;
+
+}
+
+.middle {
+    float: right;
+    margin: 0 15% 200px;
+}
+
+body {
+    font-family: Shabnam;
+    margin: 0px;
+}
+
+.buttons {
+    float: right;
+    width: 100%;
+    margin: 5px 0px;
+    text-align: center;
+}
+
+.icon {
+    display: inline-block
+}
+
+.bottom {
+    background-color: #ddd;
+    /*padding: 0px 60px;*/
+    display: block;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+}
+
+.image {
+    width: 10px;
+    height: 10px
+}
+
+a {
+    color: #616161;
+}
+
+.bar {
+    border-radius: 20px;
+    height: 30px;
+    width: 300px;
+    outline: none;
+    background: url(images/Vector_search_icon.svg.png) no-repeat scroll 3px 1px;
+    background-size: 10px;
+    background-origin: content-box;
+    padding-left: 7px;
+    padding-top: 10px;
+    background-size: 20px;
+    border: 2px solid #ddd;
+}
+
+.loginButtons {
+    display: inline-block;
+    /*float: right;*/
+    width: 29%;
+    direction: rtl;
+}
+
+.login {
+    display: inline-block
+}
+
+.login button {
+    border-radius: 30px;
+    height: 35px;
+    background-color: #757575;
+    color: white;
+    border: none;
+    width: 100px;
+    font-family: Shabnam;
+    outline: none;
+    cursor: pointer;
+}
+
+.login button:hover {
+    border-radius: 30px;
+    height: 35px;
+    background-color: blue;
+    color: white;
+    border: none;
+    width: 100px;
+    font-family: Shabnam;
+    outline: none;
+    cursor: pointer;
+}
+
+.register button {
+    border-radius: 30px;
+    height: 35px;
+    background-color: white;
+    color: #757575;
+    border: 1px solid #757575;
+    width: 100px;
+    font-family: Shabnam;
+    outline: none;
+    cursor: pointer;
+}
+
+.register {
+    display: inline-block;
+}
+
+.icons {
+    width: 100%;
+    /*padding: 10px;*/
+    padding-bottom: 40px;
+    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);
+
+    border-bottom: 1px grey solid;
+}
+
+.clothster {
+    display: inline-block;
+    width: 40%;
+    text-align: center;
+}
+
+.category {
+    width: 100%;
+    float: right;
+    margin: 5px 0px;
+    border-bottom: 2px solid #eee;
+}
+
+.items {
+    text-align: center;
+    margin: auto;
+    width: 70%;
+    /*border: 3px solid green;*/
+    padding: 10px;
+}
+
+.title {
+    color: #616161;
+    text-align: center;
+}
+
+.title h1 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    font-weight: 100;
+    color: gray;
+}
+
+.butitems {
+    text-align: center;
+    width: 70%;
+    /*border: 3px solid green;*/
+    padding: 10px;
+    margin: 0px auto;
+
+}
+
+.whyimgdiv {
+    position: relative;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.items > div {
+    float: right;
+    padding: 10px 35px;
+}
+
+.items > div a {
+    text-decoration: none;
+}
+
+.items > div a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+.aboutbody {
+    float: right;
+}
+
+.body {
+    float: right;
+    margin: 60px 130px;
+}
+
+.whyUs {
+    display: block;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    float: right;
+    margin: 10px 10px 10px 0px;
+    width: calc(35% - 15px);
+    height: 343px;
+}
+
+.whyUs .title {
+    padding: 20px;
+}
+
+.whypic {
+    width: 100%;
+    /*position: 0 10px;*/
+    margin: auto;
+}
+
+.centered {
+    position: absolute;
+    top: 48%;
+    width: 190px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #424242;
+    color: #616161;
+    padding: 11px;
+    background-color: white;
+}
+
+.about {
+    display: block;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    float: right;
+    margin: 10px 0 10px 10px;
+    padding: 20px;
+    width: calc(65% - 100px);
+}
+
+.fright {
+    float: right;
+}
+
+.fleft {
+    float: left;
+}
+
+.right {
+    width: calc(30% - 20px);
+    display: block;
+    direction: rtl;
+    float: right;
+    color: #424242;
+    padding-left: 20px;
+}
+
+.right div {
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 13px;
+    line-height: 1.3;
+}
+
+img {
+    width: 50px;
+}
+
+.left {
+    width: calc(70% - 20px);
+    padding-right: 10px;
+    display: block;
+    direction: rtl;
+    float: right;
+    color: #424242;
+    font-size: 13.5px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.service {
+    display: block;
+    float: right;
+    width: 20%;
+    text-align: right;
+    font-size: 12px;
+    color: #424242;
+    padding: 15px;
+}
+
+.info {
+    display: block;
+    float: right;
+    width: 20%;
+    text-align: right;
+    font-size: 12px;
+    color: #424242;
+    padding: 15px;
+}
+
+.social {
+    display: block;
+    float: right;
+    width: 23%;
+    text-align: center;
+    font-size: 12px;
+    color: #424242;
+    padding: 15px;
+}
+
+.rights {
+    direction: rtl;
+    display: block;
+    width: 30%;
+    font-size: 14px;
+    color: #424242;
+    padding: 15px;
+}
+
+.footer {
+    padding: 15px 15%;
+}
+
+.brand {
+    border: 2px solid #ddd;
+    background-image: url("images/Capturebrand.PNG");
+    float: right;
+    display: block;
+    border-radius: 5px;
+    margin: 10px 0 10px 10px;
+    padding: 20px;
+    width: calc(65% - 100px);
+    height: 300px;
+}
+
+.first {
+    float: right;
+}
+
+.second {
+    float: right;
+    width: 100%;
+}
+
+
+
+.luxury {
+    background-color: blue;
+    margin: 25% auto;
+    text-align: center;
+    width: 50%;
+    border-radius: 20px;
+    color: white;
+    padding: 10px;
+}
+
+.mail {
+    /*border: 2px solid #ddd;*/
+    width: calc(35% - 15px);
+    display: inline-block;
+    float: right;
+    background-color: blue;
+    height: 300px;
+    margin: 10px 0 10px 10px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 7px 18px 51px 3px rgba(0, 0, 0, 0.3);
+}
+
+.mail-icon {
+    text-align: center;
+    padding: 10px;
+}
+
+.membership div {
+    padding: 5px;
+    color: #fff;
+}
+
+.email {
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
+
+.mailButtons {
+    text-align: center;
+}
+
+.mailButtons button {
+    height: 35px;
+    border-radius: 20px;
+    background-color: #212121;
+    color: white;
+    border: none;
+    width: 100px;
+    font-family: Shabnam;
+    cursor: pointer;
+}
+
+.yourEmail {
+    font-family: Shabnam;
+    width: 250px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    text-align: right;
+    direction: rtl;
+    padding: 5px;
+    margin-bottom: 15px;
+    color: blue;
+    outline: none;
+}
+
+html {
+    color: black;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+.returnTitle {
+    direction: rtl;
+    text-align: right;
+    color: #424242;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
+.left9 {
+    writing-mode: vertical-rl;
+    display: inline-block;
+    direction: rtl;
+    writing-mode: vertical-rl;
+    display: inline-block;
+    /* direction: rtl; */
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    /*transform: scaleY(-1);*/
+    transform: scale(-1);
+    filter: FlipH;
+    color: #aaa;
+    font-size: 19px;
+}
+
+.item9 {
+    /*height: 80%;*/
+    position: relative;
+    width: 65%;
+    margin: auto;
+}
+
+.right9 {
+    writing-mode: vertical-lr;
+    display: inline-block;
+    font-size: 19px;
+    color: #aaa;
+}
+
+
+
+
+
+.cityOption {
+}
+
+.city {
+    width: 100%;
+    height: 28px;
+    margin: auto;
+    direction: rtl;
+    writing-mode: horizontal-tb;
+    border-radius: 25px;
+    background-color: #e1e8ea;
+    border: 1px solid #cecece;
+    color: #cacaca;
+    font-family: Shabnam;
+    outline: none;
+    padding: 5px;
+}
+
+.underLine {
+    width: 80%;
+    margin: auto;
+}
+
+.submitt {
+    background-color: #4b47f2;
+    color: white;
+    width: 100%;
+    height: 35px;
+    border-radius: 25px;
+    margin-bottom: 15px;
+    font-family: Shabnam;
+
+}
+
+.status .text .h3 {
+    color: #73AD21;
+    direction: rtl;
+}
+
+.status {
+    position: relative;
+    float: right;
+}
+
+.requestInput {
+    direction: rtl;
+    background-color: #e1e8ea;
+    width: 100%;
+    border-radius: 25px;
+    height: 18px;
+    border: 1px solid #cecece;
+    color: #cacaca;
+    font-family: Shabnam;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+.request .title {
+    direction: rtl;
+    float: right;
+    /*width: 100%;*/
+    /*padding: 10px;*/
+    padding-left: 170px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    color: blue;
+    font-size: 13px;
+    border-bottom: solid 1px #c2c2c2;
+}
+
+.cc {
+    direction: rtl;
+    margin: auto;
+    float: right;
+    padding-right: 15px;
+    padding-top: 5px;
+    font-size: 12px;
+}
+
+::selection {
+    background: gray;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+    /*img,*/
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ *
+ * 1. For long content, line feeds are not interpreted as spaces and small width
+ *    causes content to wrap 1 word per line:
+ *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap; /* 1 */
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    clip-path: none;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+    white-space: inherit;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+(min-resolution: 1.25dppx),
+(min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        /* Black prints faster:
+                                          http://www.sanbeiji.com/archives/953 */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre {
+        white-space: pre-wrap !important;
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+    thead {
+        display: table-header-group;
+    }
+
+    tr
+        /*,    img */
+    {
+        page-break-inside: avoid;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+
+.text {
+    display: inline-block;
+}
+
+.status {
+    display: inline-block;
+    box-shadow: red;
+    width: 40%;
+}
+
+.pics {
+    display: inline-block;
+    width: 60%;
+}
+
+.request {
+    display: inline-block;
+    width: 100%;
+    color: blue;
+}
+
+.contactsocial {
+    float: right;
+    padding: 5px 5px;
+    direction: rtl;
+    border-right: 1px solid #b2b2b2;
+    width: 39%;
+    color: #919191;
+    font-size: 13px;
+
+}
+
+.address {
+    font-size: 13px;
+}
+
+
+
+.contactus {
+    float: right;
+    width: 100%;
+    color: #616161;
+    direction: rtl;
+
+}
+
+contactus h5 {
+    padding: 0;
+}
+
+
+
+.site {
+    background-color: #e1e8ea;
+    width: 94%;
+    border-radius: 25px;
+    height: 20px;
+    border: 1px solid #cecece;
+    color: #000;
+    font-family: Shabnam;
+    outline: none;
+    float: left;
+    padding: 5px;
+}
+
+.site:focus {
+    background-color: #ffffff;
+    width: 100%;
+    border-radius: 25px;
+    height: 20px;
+    border: 2px solid blue;
+    color: #616161;
+    font-family: Shabnam;
+    outline: none;
+    float: left;
+    padding: 5px;
+}
+
+.rtl {
+    direction: rtl;
+}
+
+.ltr {
+    direction: ltr;
+}
+
+.textform {
+    direction: rtl;
+    background-color: #e1e8ea;
+    width: 89%;
+    border-radius: 25px;
+    height: 200px;
+    border: 1px solid #cecece;
+    color: #000;
+    font-family: Shabnam;
+    outline: none;
+    padding: 3px;
+    margin: auto 36px;
+}
+
+.textform:focus {
+    direction: rtl;
+    background-color: #ffffff;
+    width: 89%;
+    border-radius: 25px;
+    height: 200px;
+    border: 2px solid blue;
+    color: #616161;
+    font-family: Shabnam;
+    outline: none;
+    padding: 3px;
+    margin: auto 36px;
+}
+
+
+
+.contactSendbutton {
+    float: left;
+    background-color: white;
+    color: blue;
+    border: blue solid 1px;
+    width: 96px;
+    font-family: Shabnam;
+    height: 20px;
+    border-radius: 20px;
+    float: left;
+    margin-left: 45px;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+.contactSendbutton:hover, .contactSendbutton:focus {
+    float: left;
+    background-color: blue;
+    color: white;
+    border: blue solid 1px;
+    width: 96px;
+    font-family: Shabnam;
+    height: 20px;
+    border-radius: 20px;
+    float: left;
+    margin-left: 45px;
+    margin-bottom: 20px;
+    outline: none;
+    cursor: pointer;
+}
+
+.footerLinks a {
+    text-decoration: none;
+    line-height: 25px;
+}
+
+.footerLinks a:hover {
+    font-weight: bold;
+    color: blue;
+}
+
+.facebook {
+    background: url(images/facebook.png) no-repeat scroll 0px 0px;
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+    border-radius: 50%;
+    /*float: right;*/
+    display: inline-block;
+}
+
+.facebook:hover {
+    background: url(images/facebook-hover.png) no-repeat scroll 0px 0px;
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+    border-radius: 50%;
+}
+
+.google {
+    background: url(images/gPlus.png) no-repeat scroll 0px 0px;
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+    border-radius: 50%;
+    /*float: right;*/
+    display: inline-block;
+}
+
+.google:hover {
+    background: url(images/gPlus-hover.png) no-repeat scroll 0px 0px;
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+    border-radius: 50%;
+}
+
+.twitter {
+    background: url(images/twitter.png) no-repeat scroll 0px 0px;
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+    border-radius: 50%;
+    /*float: right;*/
+    display: inline-block;
+}
+
+.twitter:hover {
+    background: url(images/twitter-hover.png) no-repeat scroll 0px 0px;
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+    border-radius: 50%;
+}
+
+.menuAbout,
+.menuContact,
+.menuQA,
+.menuReturn,
+.menuPolicy,
+.menuPrivacy {
+    /*padding: 15px 0;*/
+    padding-top: 0;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    margin: 0 8px;
+    width: 90px;
+    color: #424242;
+    float: right;
+    border: 2px solid #aaa;
+    box-shadow: 0 1px 1px 2px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    height: 51px;
+}
+
+.menuAbout:hover,
+.menuContact:hover,
+.menuQA:hover,
+.menuReturn:hover,
+.menuPolicy:hover,
+.menuPrivacy:hover {
+    background-color: blue;
+    /*padding: 15px 0;*/
+    padding-top: 0;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    margin: 0 8px;
+    width: 90px;
+    color: #424242;
+    height: 51px;
+    float: right;
+    border: 2px solid #aaa;
+    box-shadow: 0 1px 1px 2px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+}
+
+.menuAbout > .menuAboutText,
+.menuContact > .menuContactText,
+.menuQA > .menuQAText,
+.menuReturn > .menuReturnText,
+.menuPolicy > .menuPolicyText,
+.menuPrivacy > .menuPrivacyText {
+    color: #616161;
+    font-size: 13px;
+}
+
+.menuAbout:hover > .menuAboutText,
+.menuContact:hover > .menuContactText,
+.menuQA:hover > .menuQAText,
+.menuReturn:hover > .menuReturnText,
+.menuPolicy:hover > .menuPolicyText,
+.menuPrivacy:hover > .menuPrivacyText {
+    color: #fff;
+    font-size: 13px;
+
+}
+
+.menuAbout > .menuAboutPic {
+    background: url(images/bubble.ico) no-repeat scroll 0px -30px;
+    background-position: center;
+    background-size: 45px;
+    min-width: 30%;
+    height: 90%;
+}
+
+.menuAbout:hover > .menuAboutPic {
+    background: url(images/chat-alt-double-outline.png) no-repeat scroll 0px -30px;
+    background-position: center;
+    background-size: 45px;
+    min-width: 30%;
+    height: 90%;
+}
+
+.menuContact > .menuContactPic {
+    background: url(images/black-envelope-icon-10.png) no-repeat scroll 0px -30px;
+    width: 100%;
+    height: 90%;
+    background-position: center;
+    background-size: 45px;
+}
+
+.menuContact:hover > .menuContactPic {
+    background: url(images/env.png) no-repeat scroll 0px -30px;
+    width: 100%;
+    height: 90%;
+    background-position: center;
+    background-size: 45px;
+
+}
+
+.menuQA > .menuQAPic {
+    background: url(images/25-512.png) no-repeat scroll 0px -30px;
+    width: 100%;
+    height: 90%;
+    background-position: center;
+    background-size: 45px;
+
+}
+
+.menuQA:hover > .menuQAPic {
+    background: url(images/hand_drawn_corrections-35-512.png) no-repeat scroll 0px -30px;
+    width: 100%;
+    height: 90%;
+    background-position: center;
+    background-size: 45px;
+}
+
+.menuReturn > .menuReturnPic {
+    background: url(images/Arrows1_uturn_left-512.png) no-repeat scroll 0px -30px;
+    width: 100%;
+    height: 90%;
+    background-position: center;
+    background-size: 45px;
+}
+
+.menuReturn:hover > .menuReturnPic {
+    background: url(images/undo-512.png) no-repeat scroll 0px -30px;
+    width: 100%;
+    height: 90%;
+    background-position: center;
+    background-size: 45px;
+}
+
+.menuPolicy > .menuPolicyPic {
+    background: url(images/user_staff_person_man_profile_boss_circle-512.png) no-repeat scroll 0px -30px;
+    width: 100%;
+    height: 90%;
+    background-position: center;
+    background-size: 45px;
+}
+
+.menuPolicy:hover > .menuPolicyPic {
+    background: url(images/user.png) no-repeat scroll 0px -30px;
+    width: 100%;
+    height: 90%;
+    background-position: center;
+    background-size: 45px;
+}
+
+.menuPrivacy > .menuPrivacyPic {
+    background: url(images/26053.png) no-repeat scroll 0px -30px;
+    width: 100%;
+    height: 90%;
+    background-position: center;
+    background-size: 45px;
+}
+
+.menuPrivacy:hover > .menuPrivacyPic {
+    background: url(images/unlock.png) no-repeat scroll 0px -30px;
+    width: 100%;
+    height: 90%;
+    background-position: center;
+    background-size: 45px;
+}
+

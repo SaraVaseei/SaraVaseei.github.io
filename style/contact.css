@@ -1,0 +1,146 @@
+@import 'index.css';
+
+.contactinfo {
+    padding: 10px;
+    border-top: 2px solid #ddd;
+    border-bottom: 2px solid #ddd;
+    float: right;
+    width: 100%;
+}
+
+.goodTitle {
+    direction: rtl;
+    text-align: right;
+    font-size: 20px;
+    color: #616161;
+}
+
+.goodText {
+    direction: rtl;
+    text-align: right;
+    margin-bottom: 20px;
+    color: #616161;
+
+    font-size: 13.249999px;
+}
+
+.contactemail {
+    float: right;
+    padding: 5px 5px;
+    direction: rtl;
+    width: 28%;
+    display: inline-block;
+    /*border-left: 1px solid #ddd;*/
+    margin: 0px;
+}
+
+.contactemailpic {
+    float: right;
+    padding: 5px 5px 5px 0px;
+}
+
+.contactemaildata {
+    float: right;
+    padding: 5px 5px 5px 5px;
+    color: #424242;
+    width: 50%;
+    display: inline-block;
+}
+
+.contactemaildataTitle {
+    color: #9b9b9b;
+    font-size: 9.94px;
+    language: farsi;
+}
+
+.contactemaildataNumber {
+    direction: ltr;
+    float: right;
+    color: #9b9b9b;
+    font-family: open-sans;
+    /*font-family: Tahoma, Ubuntu, Arial, sans-serif;*/
+
+}
+
+.contactsecond {
+    float: right;
+    margin: 0px 130px;
+}
+
+.mapinfo {
+    float: right;
+    direction: rtl;
+    color: #616161;
+    width: calc(40% - 10px);
+}
+
+.mapinfo h3 {
+    font-size: 15px;
+}
+
+.mapsection {
+    margin: 20px 0px;
+}
+
+.map {
+    width: calc(65% - 10px);
+}
+
+.caution {
+    background-color: #6c0000;
+    /* text-align: center; */
+    width: 100%;
+    margin: auto;
+    border-radius: 5px;
+    color: white;
+    /*padding-left: 20px;*/
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    font-size: 12.99999px;
+    direction: rtl;
+    float: right;
+}
+
+.contactform {
+    float: right;
+    width: 105%;
+    /*padding: 10px;*/
+    border-radius: 10px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 39px;
+}
+
+.contactforminside {
+    width: 100%;
+}
+
+.contactCall {
+    color: blue;
+    font-family: Shabnam;
+    border-bottom: solid 1px #e1e8ea;
+    padding-right: 30px;
+    padding-top: 15px;
+    font-size: 13px;
+    padding-bottom: 10px;
+}
+
+.contactinput {
+    width: 23.5%;
+    /*padding: 10px;*/
+    padding-left: 4%;
+    padding-right: 5.3%;
+}
+.contactinputtitle {
+    padding-top: 18px;
+    color: blue;
+    font-size: 13px;
+}
+
+.contactform .contactinputtitleYourMessage {
+    padding-right: 39px;
+    font-size: 13px;
+    padding-top: 10px;
+    color: blue;
+
+}
