@@ -1,14 +1,14 @@
 <!doctype html>
 <html>
 <head>
-<!--<<<<<<< HEAD-->
+    <!--<<<<<<< HEAD-->
     <title>DigiStyle</title>
     <link rel="stylesheet" href="style/index.css">
     <link rel="stylesheet" href="style/support.css">
-<!--=======-->
+    <!--=======-->
     <!--<title></title>-->
     <!--<link rel="stylesheet" href="style/index.css">-->
-<!--&gt;>>>>>> 0d486b2d6de7e1c6a8e1e95bf78a337aec0583cf-->
+    <!--&gt;>>>>>> 0d486b2d6de7e1c6a8e1e95bf78a337aec0583cf-->
 </head>
 <body>
 
@@ -17,11 +17,11 @@
         <!--<div class="icon">-->
         <!--<img class="image" src="style/images/Vector_search_icon.svg.png">-->
         <!--</div>-->
-<!--<<<<<<< HEAD-->
+        <!--<<<<<<< HEAD-->
         <input title="input" class="bar"/>
-<!--=======-->
+        <!--=======-->
         <!--<input class="bar"/>-->
-<!--&gt;>>>>>> 0d486b2d6de7e1c6a8e1e95bf78a337aec0583cf-->
+        <!--&gt;>>>>>> 0d486b2d6de7e1c6a8e1e95bf78a337aec0583cf-->
     </div>
     <div class="clothster">
         <div class="title">
@@ -170,6 +170,8 @@
                 <div class="center"><b>عضو شوید !</b></div>
             </div>
             <div class="email">
+                <img src="style/images/env-sendus.png" class="envSendUs">
+
                 <input class="yourEmail" placeholder="آدرس ایمیل خود را وارد کنید">
             </div>
             <div class="mailButtons">
@@ -273,17 +275,18 @@
             <img src="style/images/minimize.png">
         </a>
         <div id="popup-title">
-            <img src="style/images/message.png" style="float: right; width: 32px">
+            <img src="style/images/message.png" id="popup-title-img">
             <h4>پشتیبانی آنلاین</h4>
         </div>
         <span class="chat-message-counter">3</span>
     </header>
     <div class="close-chat" id="chat">
         <div class="chat-history" id="first-chat"></div>
-        <form action="#" method="post" id="chat-form" onsubmit="chat_func()" style="">
-            <div style="display: inline-block; width: 14%; background-color: white; margin-right: -6px; border-radius: 3px; cursor: pointer" onclick="chat_func()"><img src="style/images/send.png" class="sendButton"></div>
-            <div style="display: inline-block; width: 70%">
-                <fieldset style="display: inline-block">
+        <form action="#" method="post" id="chat-form" onsubmit="chat_func()" >
+            <div class="sendbuttonParent"
+                 onclick="chat_func()"><img src="style/images/send.png" class="sendButton"></div>
+            <div class="fieldParent">
+                <fieldset>
                     <input type="text" class="input" id="chat-input" placeholder="متن پیام به پشتیبانی ..." autofocus>
                     <input type="hidden">
                 </fieldset>

@@ -1,15 +1,15 @@
-let name = "سارا واسعی";
-let role = "پشتیبانی بخش فروش";
-let image = "style/images/support.jpg";
-let title_content_support = '<div><div class="chat-title"><img id="support_pic" src=' + image + ' alt="" width="32" height="32"></div><div></div><div id="support_role">' + role + '</div><div id="support_name">' + name + '</div></div>';
-let title_content_default = '<div><img src="style/images/message.png" style="float: right; width: 32px"><h4>پشتیبانی آنلاین</h4></div>';
+var name = "سارا واسعی";
+var role = "پشتیبانی بخش فروش";
+var image = "style/images/support.jpg";
+var title_content_support = '<div><div class="chat-title"><img id="support_pic" src=' + image + ' alt="" width="32" height="32"></div><div></div><div id="support_role">' + role + '</div><div id="support_name">' + name + '</div></div>';
+var title_content_default = '<div><img src="style/images/message.png" style="float: right; width: 32px"><h4>پشتیبانی آنلاین</h4></div>';
 
-let chat = document.getElementById('chat');
-let title = document.getElementById('popup-title');
+var chat = document.getElementById('chat');
+var title = document.getElementById('popup-title');
 
 function live_chat(div) {
 
-    let className = div.getAttribute("class");
+    var className = div.getAttribute("class");
 
     if (className === "normal") {
         div.className = "active";
@@ -30,7 +30,7 @@ function live_chat(div) {
 }
 
 function toggle_chat() {
-    let chat_header = document.getElementById('chat-header');
+    var chat_header = document.getElementById('chat-header');
     chat_header.classList.remove("active");
     title.innerHTML = title_content_support;
     document.getElementById("chat-close-button").style.display = 'none';
@@ -42,9 +42,9 @@ function toggle_chat() {
 
 function chat_func() {
     event.preventDefault();
-    let input = document.getElementById("chat-input");
+    var input = document.getElementById("chat-input");
     console.log(input.value);
-    let input_value = input.value;
+    var input_value = input.value;
     axios.post('http://51.15.59.130:46260/send',
         {message: input.value},
         {
@@ -56,7 +56,7 @@ function chat_func() {
         }).then(function (response) {
         document.getElementById("chat-input").value = "";
 
-        let chat_his = document.getElementById("first-chat");
+        var chat_his = document.getElementById("first-chat");
         chat_his.innerHTML +=
             '<div class="chat-message-client"><img src="./style/images/user.png" alt="" width="32" height="32">' +
             '<div class="chat-message-client-content">' +
@@ -67,7 +67,7 @@ function chat_func() {
         if (response.data.success) {
             axios.get('http://51.15.59.130:46260/fetch').then(function (res) {
                 console.log(res);
-                let date = new Date(res.data.responses[0].date);
+                var date = new Date(res.data.responses[0].date);
                 console.log(date);
                 chat_his.innerHTML +=
                     '<div class="chat-message-support" >' +

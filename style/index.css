@@ -358,7 +358,7 @@ img {
 
 .luxury {
     background-color: blue;
-    margin: 25% auto;
+    margin: 20% auto;
     text-align: center;
     width: 50%;
     border-radius: 20px;
@@ -368,11 +368,11 @@ img {
 
 .mail {
     /*border: 2px solid #ddd;*/
-    width: calc(35% - 15px);
+    width: calc(32.5% - 15px);
     display: inline-block;
     float: right;
     background-color: blue;
-    height: 300px;
+    height: 220px;
     margin: 10px 0 10px 10px;
     padding: 20px;
     border-radius: 8px;
@@ -381,7 +381,7 @@ img {
 
 .mail-icon {
     text-align: center;
-    padding: 10px;
+    padding: 10px; margin: 0 auto;
 }
 
 .membership div {
@@ -411,18 +411,25 @@ img {
     font-family: Shabnam;
     cursor: pointer;
 }
+.envSendUs{
+    width: 20px;
+    position: absolute;
+    left: 520px;
+    top: 790px;
+}
+
 
 .yourEmail {
     font-family: Shabnam;
-    width: 250px;
+    width: 220px;
     height: 30px;
     border-radius: 20px;
     border: none;
     text-align: right;
     direction: rtl;
     padding: 5px;
+    padding-right: 50px;
     margin-bottom: 15px;
-    color: blue;
     outline: none;
 }
 
@@ -502,7 +509,8 @@ html {
     border-radius: 25px;
     margin-bottom: 15px;
     font-family: Shabnam;
-
+    outline: none;
+    border: none;
 }
 
 .status .text .h3 {
@@ -514,13 +522,15 @@ html {
     position: relative;
     float: right;
 }
-
+.sendbuttonParent{
+    display: inline-block; width: 14%; background-color: white; margin-right: -6px; border-radius: 3px; cursor: pointer
+}
 .requestInput {
     direction: rtl;
     background-color: #e1e8ea;
     width: 100%;
     border-radius: 25px;
-    height: 18px;
+    height: 25px;
     border: 1px solid #cecece;
     color: #cacaca;
     font-family: Shabnam;

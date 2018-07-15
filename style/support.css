@@ -20,6 +20,7 @@ fieldset {
     border: 0;
     margin: 0;
     padding: 0;
+    display: inline-block;
 }
 
 h4, h5 {
@@ -42,11 +43,11 @@ img {
     display: block;
     height: auto;
     max-width: 100%;
+    margin: 0 auto
 }
 
 input {
-    border: none
-;
+    border: none;
     color: inherit;
     font-family: inherit;
     font-size: 100%;
@@ -235,6 +236,10 @@ p {
     direction: rtl;
 }
 
+#popup-title-img {
+    float: right; width: 32px
+}
+
 .chat-message-support-content {
     float: right;
     font-size: 10px;
@@ -267,4 +272,9 @@ p {
 
 .input {
     direction: rtl;
+}
+
+.fieldParent {
+    display: inline-block;
+    width: 70%
 }

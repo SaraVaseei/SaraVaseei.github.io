@@ -84,6 +84,10 @@
 
 .map {
     width: calc(65% - 10px);
+
+}
+#googleMap{
+    border:0;
 }
 
 .caution {
@@ -131,6 +135,7 @@
     padding-left: 4%;
     padding-right: 5.3%;
 }
+
 .contactinputtitle {
     padding-top: 18px;
     color: blue;
