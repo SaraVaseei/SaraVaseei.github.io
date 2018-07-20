@@ -1,0 +1,139 @@
+.leftSide {
+  display: inline-block;
+  width: 1200px;
+  //border: 1px solid black;
+  margin-left: 100px;
+  .categoryName {
+    text-align: right;
+    padding: 10px;
+    font: 25px/150% Shabnam;
+  }
+  .pages {
+    display: inline-block;
+    margin-left: 80px;
+  }
+  .next {
+    width: 100px;
+    border: 1.5px solid grey;
+    padding: 10px;
+    text-align: center;
+    direction: rtl;
+    display: inline-block;
+    font: 15px/150% Shabnam;
+    color: grey;
+    margin: 10px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  #pageNumber {
+    font: 15px/150% Shabnam;
+    display: inline-block;
+  }
+}
+
+.sort {
+  display: inline-block;
+  direction: rtl;
+  float: right;
+  div {
+    //float: right;
+    display: inline-block;
+    text-align: right;
+    padding: 10px;
+    font: 25px/150% Shabnam;
+    color: #ccc;
+  }
+  select {
+    //float: right;
+    width: 170px;
+    text-align: right;
+    padding: 10px;
+    background-color: #f2f2f2;
+    //padding-left: 100px;
+    font: 20px/150% Shabnam;
+    color: grey;
+
+  }
+}
+
+.products {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: inline-block;
+  img {
+    border: 1.5px solid grey;
+    width: 200px;
+  }
+  .percentage {
+    width: 80px;
+    //height: 100px;
+    border-radius: 50%;
+    background-color: deeppink;
+    text-align: center;
+    padding: 28px 0;
+    //display: inline-block;
+  }
+  .about {
+
+    width: 200px;
+  }
+  div {
+    text-align: center;
+    font: 15px/150% Shabnam;
+
+  }
+}
+
+.rightSide {
+  display: inline-block;
+  border: 1px solid black;
+  width: 480px;
+  .cats {
+    background-color: #f2f2f2;
+    direction: rtl;
+    margin: 0 35px;
+    padding: 10px 0;
+
+    .cates {
+      font: 20px/150% Shabnam;
+      text-align: right;
+      display: inline-block;
+      padding: 0 10px;
+
+    }
+    .openCats {
+      font: 25px/150% Shabnam;
+      float: left;
+      padding: 0 10px;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+    .catName {
+      font: 18px/150% Shabnam;
+      display: inline-block;
+      .namedaste {
+        div {
+
+        }
+      }
+
+    }
+    .openCatsNames {
+      padding-right: 20px;
+      display: inline-block;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+
+  }
+}
+
+.nameDasteTwo {
+  color: red !important;
+  padding-right: 50px;
+}

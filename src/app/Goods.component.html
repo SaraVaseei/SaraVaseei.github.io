@@ -1,0 +1,121 @@
+<app-nav></app-nav>
+<div class="leftSide">
+    <div class="categoryName">نام دسته</div>
+    <div class="sort-pages">
+        <div class="pages">
+            <div class="next">صفحه بعد ◀</div>
+            <div id="pageNumber">صفحه ۱ از ۱۲۸</div>
+            <div class="next">▶ صفحه قبل</div>
+        </div>
+        <div class="sort">
+            <div>مرتب سازی</div>
+            <select>
+                <option>محبوب ترین</option>
+                <option>پرفروش ترین</option>
+                <option>گرانترین</option>
+                <option>ارزان ترین</option>
+            </select>
+        </div>
+    </div>
+    <div class="products">
+        <div class="percentage" style="position: absolute;
+    left: 310px;
+    top: 280px;">N%
+        </div>
+        <img src="/assets/images/dress.jpg">
+        <div class="about">
+            <div><b>نام برند</b></div>
+            <div style="color: grey">نام محصول</div>
+            <div style="display: inline-block;    font: 12px/150% Shabnam;color: deeppink">قیمت بعد تخفیف</div>
+            <div style="display: inline-block;    font: 12px/150% Shabnam;"><s>قیمت قبل تخفیف </s></div>
+            <div style="color: deeppink">تومان</div>
+        </div>
+    </div>
+    <div class="products">
+        <div class="percentage" style="position: absolute;
+    left: 595px;
+    top: 280px;">N%
+        </div>
+        <img src="/assets/images/dress.jpg">
+        <div class="about">
+            <div><b>نام برند</b></div>
+            <div style="color: grey">نام محصول</div>
+            <div style="display: inline-block;    font: 12px/150% Shabnam;color: deeppink">قیمت بعد تخفیف</div>
+            <div style="display: inline-block;    font: 12px/150% Shabnam;"><s>قیمت قبل تخفیف </s></div>
+            <div style="color: deeppink">تومان</div>
+        </div>
+    </div>
+    <div class="products">
+        <div class="percentage" style="position: absolute;
+    left: 880px;
+    top: 280px;">N%
+        </div>
+        <img src="/assets/images/dress.jpg">
+        <div class="about">
+            <div><b>نام برند</b></div>
+            <div style="color: grey">نام محصول</div>
+            <div style="display: inline-block;    font: 12px/150% Shabnam;color: deeppink">قیمت بعد تخفیف</div>
+            <div style="display: inline-block;    font: 12px/150% Shabnam;"><s>قیمت قبل تخفیف </s></div>
+            <div style="color: deeppink">تومان</div>
+        </div>
+    </div>
+    <div class="products">
+        <div class="percentage" style="position: absolute;
+    left: 1160px;
+    top: 280px;">N%
+        </div>
+        <img src="/assets/images/dress.jpg">
+        <div class="about">
+            <div><b>نام برند</b></div>
+            <div style="color: grey">نام محصول</div>
+            <div style="display: inline-block;    font: 12px/150% Shabnam;color: deeppink">قیمت بعد تخفیف</div>
+            <div style="display: inline-block;    font: 12px/150% Shabnam;"><s>قیمت قبل تخفیف </s></div>
+            <div style="color: deeppink">تومان</div>
+        </div>
+    </div>
+    <div class="products">
+        <div class="percentage" style="position: absolute;
+    left: 310px;
+    top: 690px;">N%
+        </div>
+        <img src="/assets/images/dress.jpg">
+        <div class="about">
+            <div><b>نام برند</b></div>
+            <div style="color: grey">نام محصول</div>
+            <div style="display: inline-block;    font: 12px/150% Shabnam;color: deeppink">قیمت بعد تخفیف</div>
+            <div style="display: inline-block;    font: 12px/150% Shabnam;"><s>قیمت قبل تخفیف </s></div>
+            <div style="color: deeppink">تومان</div>
+        </div>
+    </div>
+
+</div>
+<div class="rightSide">
+    <div class="cats">
+        <div class="cates">دسته بندی ها</div>
+        <div class="openCats" *ngIf=" ! this.categoriesAreOpened" (click)="toggleCategories()">+</div>
+        <div class="openCats" *ngIf="this.categoriesAreOpened" (click)="toggleCategories()">-</div>
+        <div class="nameDaste" *ngIf="this.categoriesAreOpened">
+            <div class="openCatsNames" *ngIf="! this.categoriesNamesAreOpened" (click)="toggleCategoriesNames()">▼</div>
+            <div class="openCatsNames" *ngIf="this.categoriesNamesAreOpened" (click)="toggleCategoriesNames()">▲</div>
+            <div class="catName"> نام دسته</div>
+            <div *ngIf="this.categoriesNamesAreOpened1">
+                <div class="nameDasteTwo">نام دسته</div>
+                <div >
+                    <div>نام زیردسته</div>
+                    <div>نام زیردسته</div>
+                    <div>نام زیردسته</div>
+                    <div>نام زیردسته</div>
+                </div>
+                <div class="nameDasteTwo">نام دسته</div>
+                <div class="nameDasteTwo">نام دسته</div>
+                <div class="nameDasteTwo">نام دسته</div>
+                <div class="nameDasteTwo">نام دسته</div>
+            </div>
+        </div>
+    </div>
+    <div class="brands"></div>
+    <div class="colors"></div>
+    <div class="addColor"></div>
+</div>
+
+<app-foot></app-foot>

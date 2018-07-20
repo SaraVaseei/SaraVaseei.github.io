@@ -1,0 +1,62 @@
+<app-nav></app-nav>
+<!--<div style="background-color: black; ">سلاک</div>-->
+<!--<div style="background-color: yellow; ">سارا</div>-->
+<!--<div style="background-color: black; ">h</div>-->
+<!--<div style="background-color: yellow; ">h</div>-->
+<div class="sliderBorder">
+    <div class="w3-content w3-display-container slideBox">
+        <img class="mySlides" src="/assets/images/7.jpeg">
+        <img class="mySlides" src="/assets/images/8.jpeg">
+        <img class="mySlides" src="/assets/images/9.jpeg">
+        <img class="mySlides" src="/assets/images/10.jpeg">
+        <div class="w3-center w3-container w3-section w3-large w3-text-gray w3-display-bottommiddle">
+            <div class="w3-left w3-hover-text-khaki" (click)="plusDivs(-1)">&#10094;</div>
+            <div class="w3-right w3-hover-text-khaki" (click)="plusDivs(1)">&#10095;</div>
+            <span class="w3-badge demo w3-border w3-transparent w3-hover-black" (click)="currentDiv(1)"></span>
+            <span class="w3-badge demo w3-border w3-transparent w3-hover-black" (click)="currentDiv(2)"></span>
+            <span class="w3-badge demo w3-border w3-transparent w3-hover-black" (click)="currentDiv(3)"></span>
+            <span class="w3-badge demo w3-border w3-transparent w3-hover-black" (click)="currentDiv(4)"></span>
+        </div>
+    </div>
+</div>
+<div class="threeImages">
+    <div class="oneImage">
+        <img src="/assets/images/12.jpeg">
+        <div>بچگانه</div>
+    </div>
+    <div class="oneImage">
+        <img src="/assets/images/13.jpeg">
+        <div>زنانه</div>
+    </div>
+    <div class="oneImage">
+        <img src="/assets/images/12.jpeg">
+        <div>مردانه</div>
+    </div>
+</div>
+<div class="buyBest">بهترین ها را از ما خرید کنید</div>
+<div class="second">
+    <div class="brand">
+        <div class="luxury">تمام برند های معتبر را با ما تجربه کنید</div>
+    </div>
+
+    <div class="mail">
+        <div class="mail-icon">
+            <img src="/assets/images/open.PNG">
+        </div>
+        <div class="membership">
+            <div class="center">در خبرنامه ما</div>
+            <div class="center"><b>عضو شوید !</b></div>
+        </div>
+        <div class="email">
+            <img src="/assets/images/env-sendus.png" class="envSendUs">
+
+            <input class="yourEmail" placeholder="آدرس ایمیل خود را وارد کنید">
+        </div>
+        <div class="mailButtons">
+            <button> عضو شوید</button>
+        </div>
+    </div>
+
+</div>
+
+<app-foot class="footer"></app-foot>

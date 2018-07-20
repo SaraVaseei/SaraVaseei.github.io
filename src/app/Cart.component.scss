@@ -1,0 +1,389 @@
+$addressTablePadding: 10px;
+$addressTableRightPadding: 20px;
+$addressFontColor: #727272;
+$addressFont: 18px/150% Shabnam;
+
+.sendStatus {
+  width: 900px;
+  //border: 1px solid #ba9d37;
+  direction: rtl;
+  margin: 0 auto;
+  //display: inline-block;
+}
+
+.wholeSendStatus {
+
+}
+
+.state {
+  display: inline-block;
+  border-radius: 50%;
+}
+
+#basket__icon {
+  //padding-top: 15px;
+  float: right;
+}
+
+#truck__icon {
+  margin: 0 250px;
+  margin-bottom: 20px;
+}
+
+#wallet__icon {
+  float: left;
+}
+
+.orders {
+  //border: 1px solid black;
+  width: 1350px;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  border-collapse: collapse;
+  td {
+    border: 1px solid #ddd;
+
+  }
+  th {
+    background-color: rgba(173, 255, 249, 0.23);
+    font: 20px/150% Shabnam;
+    padding: 5px 30px;
+    text-align: center;
+  }
+  td > div {
+    padding: 5px 10px;
+  }
+  td > img {
+    width: 100px;
+    display: inline-block;
+    float: right;
+  }
+  .priceTitle {
+    //float: right;
+    font: 15px/150% Shabnam;
+    padding-right: 30px;
+    display: inline-block;
+    div {
+      text-align: right;
+
+    }
+  }
+}
+
+.upPrice {
+  padding-bottom: 30px !important;
+  direction: rtl;
+  border-bottom: 1px solid #ddd;
+}
+
+.priceAmount {
+  float: left;
+  font: 15px/150% Shabnam;
+  display: inline-block;
+  div {
+    text-align: left;
+  }
+
+}
+
+.bottomPrice {
+  padding-bottom: 15px !important;
+  direction: rtl;
+
+}
+
+.amount {
+  margin: 0 auto;
+  width: 150px;
+}
+
+.increase {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-color: gray;
+  color: white;
+  text-align: center;
+  border-radius: 50%;
+  padding: 0 0 !important;
+  margin: 0 5px !important;
+  font-size: larger;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.decrease {
+  display: inline-block;
+}
+
+.features {
+  display: inline-block;
+  float: right;
+
+  div {
+    text-align: right;
+    font: 12px/150% Shabnam;
+  }
+}
+
+.removeItem {
+  text-align: center;
+  background-color: rgba(173, 255, 249, 0.23);
+  color: grey;
+}
+
+.submit {
+  background-color: #4b47f2;
+  color: white;
+  width: 300px;
+  text-align: center;
+  padding: 10px;
+  height: 35px;
+  margin-left: 215px;
+  border-radius: 30px;
+  margin-bottom: 15px;
+  font: 18px/150% Shabnam;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.labels {
+  width: 1200px;
+  margin: 0 auto;
+  direction: rtl;
+  div {
+    font: 18px/150% Shabnam;
+    color: #36abb0;
+    display: inline-block;
+    margin: 0 150px;
+  }
+  #sendInfo {
+    color: #bcc0c1 !important;
+  }
+  #sendDetails {
+    color: #bcc0c1 !important;
+
+  }
+}
+
+.sendPrice {
+  width: 200px;
+  //margin-top: 20px;
+  margin: 20px auto;
+  //background-color: #4b47f2;
+  div {
+    //text-align: right;
+    font: 20px/150% Shabnam;
+
+  }
+}
+
+.singleAddress {
+  border: solid 2px #63b9ff;
+  border-radius: 2px;
+  width: 1350px;
+  margin: 30px auto;
+
+}
+
+.l {
+  display: inline-block;
+}
+
+.m {
+  width: 25%;
+  display: inline-block;
+  .receiverMobile {
+    direction: rtl;
+    border: 1px solid #ddd;
+    padding-right: $addressTableRightPadding;
+    padding-top: $addressTablePadding;
+    padding-bottom: $addressTablePadding;
+    .receiverMobileNumber {
+      display: inline-block;
+      color: $addressFontColor;
+      font: $addressFont;
+
+    }
+    .receiverMobileTitle {
+      display: inline-block;
+      color: $addressFontColor;
+      font: $addressFont;
+    }
+  }
+  .receiverPostalCode {
+    direction: rtl;
+    border: 1px solid #ddd;
+    padding-right: $addressTableRightPadding;
+    padding-top: $addressTablePadding;
+    padding-bottom: $addressTablePadding;
+    color: $addressFontColor;
+    font: $addressFont;
+
+    .receiverPostalCodeTitle {
+      display: inline-block;
+      color: $addressFontColor;
+      font: $addressFont;
+
+    }
+    .receiverPostalCodeNumber {
+      display: inline-block;
+      color: $addressFontColor;
+      font: $addressFont;
+
+    }
+  }
+}
+
+.r {
+  display: inline-block;
+  width: 70%;
+
+  .upRight {
+    display: inline-block;
+    width: 100%;
+
+    .receiverName {
+      display: inline-block;
+      border: 1px solid #ddd;
+      direction: rtl;
+      width: 35.3%;
+      //padding: $addressTablePadding 0;
+      padding-right: $addressTableRightPadding;
+      padding-top: $addressTablePadding;
+      padding-bottom: $addressTablePadding;
+
+      .receiverNameTitle {
+        display: inline-block;
+        color: $addressFontColor;
+        font: $addressFont;
+      }
+      .receiverNameName {
+        display: inline-block;
+        color: $addressFontColor;
+        font: $addressFont;
+      }
+    }
+
+    .receiverPhone {
+      display: inline-block;
+      border: 1px solid #ddd;
+      direction: rtl;
+      width: 60%;
+      padding-right: $addressTableRightPadding;
+      padding-top: $addressTablePadding;
+      padding-bottom: $addressTablePadding;
+
+      .receiverPhoneNumber {
+        display: inline-block;
+        color: $addressFontColor;
+        font: $addressFont;
+      }
+      .receiverPhoneTitle {
+        direction: rtl;
+        color: $addressFontColor;
+        font: $addressFont;
+        display: inline-block;
+
+      }
+    }
+  }
+
+  .address {
+    border: 1px solid #ddd;
+    direction: rtl;
+    padding-right: $addressTableRightPadding;
+    padding-top: $addressTablePadding;
+    padding-bottom: $addressTablePadding;
+
+    .receiverAddressTitle {
+      color: $addressFontColor;
+      font: $addressFont;
+      direction: rtl;
+      display: inline-block;
+
+    }
+    .receiverAddressAddress {
+      color: $addressFontColor;
+      font: $addressFont;
+      direction: rtl;
+      display: inline-block;
+
+    }
+  }
+}
+
+.rr {
+  border: 1px solid #ddd;
+  direction: rtl;
+  padding: 60px 11px 13px 10px;
+  display: inline-block;
+}
+
+.editButton {
+  padding: 11px 0;
+  border: 1px solid #ddd;
+  width: 30px;
+  text-align: center;
+  background-color: #fafafa;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.closeButton {
+  padding: 12px 0;
+  text-align: center;
+  background-color: #fafafa;
+  border: 1px solid #ddd;
+  width: 30px;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.addAddress {
+  width: 200px;
+  padding: 10px 20px;
+  border-radius: 25px;
+  background-color: blue;
+  color: white;
+  font: 15px/150% Shabnam;
+  margin-left: 215px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  &:hover {
+    cursor: pointer;
+    font-weight: bold;
+  }
+}
+
+.receive {
+  width: 1350px;
+  margin: 0 auto;
+  padding-bottom: 100px;
+  div {
+    //float: right;
+    color: grey;
+    text-align: right;
+    font: 25px/150% Shabnam;
+    direction: rtl;
+  }
+  select {
+    width: 465px;
+    text-align: right;
+    float: right;
+    padding: 10px;
+    padding-left: 100px;
+    font: 20px/150% Shabnam;
+color: grey;
+    option {
+      font: 20px/150% Shabnam;
+
+    }
+  }
+}
