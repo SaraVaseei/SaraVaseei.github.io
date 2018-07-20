@@ -1,0 +1,92 @@
+<app-nav></app-nav>
+<!--<div style="background-color: black; ">سلاک</div>-->
+<!--<div style="background-color: yellow; ">سارا</div>-->
+<!--<div style="background-color: black; ">h</div>-->
+<!--<div style="background-color: yellow; ">h</div>-->
+<div class="sliderBorder">
+    <div class="w3-content w3-display-container slideBox">
+        <img class="mySlides" src="/assets/images/7.jpeg">
+        <img class="mySlides" src="/assets/images/8.jpeg">
+        <img class="mySlides" src="/assets/images/9.jpeg">
+        <img class="mySlides" src="/assets/images/10.jpeg">
+        <div class="w3-center w3-container w3-section w3-large w3-text-gray w3-display-bottommiddle">
+            <div class="w3-left w3-hover-text-khaki" (click)="plusDivs(-1)">&#10094;</div>
+            <div class="w3-right w3-hover-text-khaki" (click)="plusDivs(1)">&#10095;</div>
+            <span class="w3-badge demo w3-border w3-transparent w3-hover-black" (click)="currentDiv(1)"></span>
+            <span class="w3-badge demo w3-border w3-transparent w3-hover-black" (click)="currentDiv(2)"></span>
+            <span class="w3-badge demo w3-border w3-transparent w3-hover-black" (click)="currentDiv(3)"></span>
+            <span class="w3-badge demo w3-border w3-transparent w3-hover-black" (click)="currentDiv(4)"></span>
+        </div>
+    </div>
+</div>
+<div class="threeImages">
+    <div class="oneImage">
+        <img src="/assets/images/12.jpeg">
+        <div>بچگانه</div>
+    </div>
+    <div class="oneImage">
+        <img src="/assets/images/13.jpeg">
+        <div>زنانه</div>
+    </div>
+    <div class="oneImage">
+        <img src="/assets/images/12.jpeg">
+        <div>مردانه</div>
+    </div>
+</div>
+<div class="buyBest">بهترین ها را از ما خرید کنید</div>
+<div class="second">
+    <div class="brand">
+        <div class="luxury">تمام برند های معتبر را با ما تجربه کنید</div>
+    </div>
+
+    <div class="mail">
+        <div class="mail-icon">
+            <img src="/assets/images/open.PNG">
+        </div>
+        <div class="membership">
+            <div class="center">در خبرنامه ما</div>
+            <div class="center"><b>عضو شوید !</b></div>
+        </div>
+        <div class="email">
+            <img src="/assets/images/env-sendus.png" class="envSendUs">
+
+            <input class="yourEmail" placeholder="آدرس ایمیل خود را وارد کنید">
+        </div>
+        <div class="mailButtons">
+            <button> عضو شوید</button>
+        </div>
+    </div>
+
+</div>
+<app-login [(visible)]="showLoginDialog">
+    <div class="loginModal">
+        <div class="closeModal" (click)="this.showLoginDialog = ! this.showLoginDialog">&#10006;</div>
+        <div class="Enterance">ورود</div>
+        <div style="width: 290px; margin: 0 auto">
+        <div class="userDetailsTitle">شماره تلفن یا ایمیل</div>
+        <input placeholder="برای مثال sara@gmail.com" class="userDetailsValue">
+        <div class="userDetailsTitle">رمز عبور</div>
+        <input placeholder="" class="userDetailsValue">
+            <div style="display: inline-block; color: blue; ">کلیک کنید</div>
+            <div style="display: inline-block;text-align: center; color: grey">رمز عبور خود را فراموش کرده اید؟</div>
+            <div class="enterButton">ورود</div>
+        </div>
+    </div>
+</app-login>
+<app-login [(visible)]="showRegisterDialog">
+    <div class="loginModal">
+        <div class="closeModal" (click)="this.showRegisterDialog = ! this.showRegisterDialog    ">&#10006;</div>
+        <div class="Enterance">ثبت نام</div>
+        <div style="width: 290px; margin: 0 auto">
+            <div class="userDetailsTitle">شماره تلفن یا ایمیل</div>
+            <input placeholder="برای مثال sara@gmail.com" class="userDetailsValue">
+            <div class="userDetailsTitle">رمز عبور</div>
+            <input placeholder="" class="userDetailsValue">
+            <div style="display: inline-block; color: blue; ">کلیک کنید</div>
+            <div style="display: inline-block;text-align: center; color: grey">رمز عبور خود را فراموش کرده اید؟</div>
+            <div class="enterButton">ثبت نام</div>
+        </div>
+    </div>
+</app-login>
+
+<app-foot class="footer"></app-foot>

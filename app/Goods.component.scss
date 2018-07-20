@@ -1,0 +1,242 @@
+.leftSide {
+  display: inline-block;
+  width: 1200px;
+  //border: 1px solid black;
+  margin-left: 100px;
+  .categoryName {
+    text-align: right;
+    padding: 10px;
+    font: 25px/150% Shabnam;
+  }
+  .pages {
+    display: inline-block;
+    margin-left: 80px;
+  }
+  .next {
+    width: 100px;
+    border: 1.5px solid grey;
+    padding: 10px;
+    text-align: center;
+    direction: rtl;
+    display: inline-block;
+    font: 15px/150% Shabnam;
+    color: grey;
+    margin: 10px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  #pageNumber {
+    font: 15px/150% Shabnam;
+    display: inline-block;
+  }
+}
+
+.sort {
+  display: inline-block;
+  direction: rtl;
+  float: right;
+  div {
+    //float: right;
+    display: inline-block;
+    text-align: right;
+    padding: 10px;
+    font: 25px/150% Shabnam;
+    color: #ccc;
+  }
+  select {
+    //float: right;
+    width: 170px;
+    text-align: right;
+    padding: 10px;
+    background-color: #f2f2f2;
+    //padding-left: 100px;
+    font: 20px/150% Shabnam;
+    color: grey;
+
+  }
+}
+
+.products {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: inline-block;
+  img {
+    border: 1.5px solid grey;
+    width: 200px;
+  }
+  .percentage {
+    width: 80px;
+    //height: 100px;
+    border-radius: 50%;
+    background-color: deeppink;
+    text-align: center;
+    padding: 28px 0;
+    //display: inline-block;
+  }
+  .about {
+
+    width: 200px;
+  }
+  div {
+    text-align: center;
+    font: 15px/150% Shabnam;
+
+  }
+}
+
+.cates {
+  font: 20px/150% Shabnam;
+  text-align: right;
+  display: inline-block;
+  padding: 0 10px;
+
+}
+
+.openCats {
+  font: 25px/150% Shabnam;
+  float: left;
+  padding: 0 10px;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.rightSide {
+  display: inline-block;
+  //border: 1px solid black;
+  width: 480px;
+  position: absolute;
+  top:  170px;
+  .cats {
+    background-color: #f2f2f2;
+    direction: rtl;
+    margin: 20px 35px;
+    padding: 10px 0;
+    max-height: 300px;
+    overflow-y: scroll;
+
+    .catName {
+      font: 18px/150% Shabnam;
+      display: inline-block;
+      .namedaste {
+
+        div {
+
+        }
+      }
+
+    }
+    .openCatsNames {
+      padding-right: 20px;
+      display: inline-block;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+    .openCatsNamess {
+      padding-right: 40px;
+      display: inline-block;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+
+  }
+}
+
+.nameDasteTwo {
+  //color: red !important;
+  //padding-right: 50px;
+  font: 18px/150% Shabnam;
+  display: inline-block;
+}
+
+.nameZirDaste {
+  font: 13px/150% Shabnam;
+  padding-right: 70px;
+
+}
+
+.brands {
+  background-color: #f2f2f2;
+  direction: rtl;
+  margin: 20px 35px;
+  padding: 10px 0;
+  max-height: 300px;
+  overflow-y: scroll;
+
+  .check {
+    margin: 0 auto;
+    width: 290px;
+    border-bottom: 1px solid grey;
+    .checkButton {
+      display: inline-block;
+      width: 30px;
+      height: 30px;
+      background-color: white;
+      border: 1px solid grey;
+      cursor: pointer;
+      color: grey;
+    }
+    .brand {
+      display: inline-block;
+      padding-top: 10px;
+      float: left;
+      color: grey;
+
+    }
+    .brandName {
+      color: grey;
+      display: inline-block;
+      font: 13px/150% Shabnam;
+
+    }
+  }
+}
+
+.w3-input {
+  padding: 15px 15px;
+  display: block;
+  border: none;
+  border: 1px solid #ccc;
+  width: 280px;
+  margin: 0 auto;
+  font: 13px/150% Shabnam;
+  margin-bottom: 35px;
+}
+
+.brandsearchBar {
+  width: 90%;
+  background-color: red;
+}
+
+.colors {
+  background-color: #f2f2f2;
+  direction: rtl;
+  padding: 10px 0;
+  //max-height: 300px;
+  //overflow-y: scroll;
+  margin: 20px 35px;
+
+}
+
+.color {
+  width: 50px;
+  height: 45px;
+  margin: 6px 8px;
+  border: 1.5px solid #ccc;
+  display: inline-block;
+  &:hover{
+    cursor: pointer;
+  }
+}
+
+.color #1 {
+  background-color: red !important;
+}
+#2{
+
+}

@@ -1,0 +1,399 @@
+$addressTablePadding: 10px;
+$addressTableRightPadding: 20px;
+$addressFontColor: #727272;
+$addressFont: 18px/150% Shabnam;
+.userInfo {
+  width: 1350px;
+  margin: 0 auto;
+  padding-bottom: 70px;
+
+  border: solid 2px #ddd;
+  border-radius: 5px;
+  display: block;
+}
+
+.leftInfo {
+  width: 30%;
+  //border: solid 1px black;
+  display: inline-block;
+}
+
+.middleInfo {
+  display: inline-block;
+  width: 39%;
+  //border: solid 1px red;
+
+}
+
+.rightInfo {
+  display: inline-block;
+  width: 30%;
+  //border: solid 1px yellow;
+
+}
+
+.userDetails {
+  margin-top: 100px;
+  //border: 1px solid green;
+  margin-right: 70px;
+  margin-left: 50px;
+}
+
+.userDetailsTitle {
+  direction: rtl;
+  margin: auto;
+  font: 12px/150% Shabnam;
+  color: blue;
+  //float: right;
+  padding-right: 5px;
+  padding-top: 5px;
+  font-size: 12px;
+}
+
+.userDetailsValue {
+  direction: rtl;
+  background-color: #e1e8ea;
+  width: 97%;
+  max-width: 275px;
+  border-radius: 20px;
+  height: 35px;
+  border: 1px solid #ddd;
+  color: #cacaca;
+  font-family: Shabnam;
+  margin-bottom: 20px;
+  outline: none;
+  padding-right: 5px;
+}
+
+#RightBottomDetail {
+  margin-top: 20px;
+}
+
+#LeftBottomDetail {
+  margin-top: 20px;
+}
+
+.centralizedPack {
+  //margin: 0 auto;
+  margin-right: 70px;
+  margin-left: 50px;
+  max-width: 275px;
+}
+
+.userName {
+  direction: rtl;
+  margin: auto;
+  font: 25px/150% Shabnam;
+  color: gray;
+  text-align: center;
+  //float: right;
+  padding-right: 5px;
+  padding-top: 5px;
+  //font-size: 1px;
+}
+
+.userImage {
+  width: 250px;
+  border-radius: 50%;
+  //margin: 0 auto;
+  margin-left: 135px;
+}
+
+.userGenderTitle {
+  direction: rtl;
+  margin: auto;
+  font: 12px/150% Shabnam;
+  color: blue;
+  text-align: center;
+  //float: right;
+  padding-right: 5px;
+  padding-top: 5px;
+
+}
+
+.userGenderButton {
+  border: 1px solid #ddd;
+  width: 130px;
+  margin: 0 auto;
+  height: 50px;
+  border-radius: 25px;
+  .femaleTitle {
+    display: inline-block;
+    width: 30px;
+    direction: rtl;
+    margin: 10px auto;
+    font: 12px/100% Shabnam;
+    color: blue;
+    text-align: center;
+    //position: absolute;
+    //left:1000px;
+    //top: 1000px;
+  }
+  .femaleLogo {
+    display: inline-block;
+    width: 35px;
+    background-color: #ff7986;
+    padding: 8.5px 0;
+  }
+  .maleLogo {
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    background-color: #0000cc;
+    padding: 12px 2px;
+
+  }
+  .maleTitle {
+    display: inline-block;
+    width: 30px;
+    direction: rtl;
+    margin: auto;
+    font: 12px/150% Shabnam;
+    color: blue;
+    text-align: center;
+  }
+}
+
+.userSubmit {
+  width: 350px;
+  //height: 50px;
+  background-color: blue;
+  border-radius: 30px;
+  margin: -35px auto 50px auto;
+  color: white;
+  font: 22px/150% Shabnam;
+  text-align: center;
+  padding: 15px 0;
+
+}
+
+#middlePass {
+  width: 275px;
+  margin: 0 auto;
+}
+
+.addresses {
+  width: 1350px;
+  direction: rtl;
+  margin: 0 auto;
+  color: grey;
+  font: 25px/150% Shabnam;
+}
+
+.singleAddress {
+  border: solid 2px #63b9ff;
+  border-radius: 2px;
+  width: 1350px;
+  margin: 30px auto;
+
+}
+
+.l {
+  display: inline-block;
+}
+
+.m {
+  width: 25%;
+  display: inline-block;
+  .receiverMobile {
+    direction: rtl;
+    border: 1px solid #ddd;
+    padding-right: $addressTableRightPadding;
+    padding-top: $addressTablePadding;
+    padding-bottom: $addressTablePadding;
+    .receiverMobileNumber {
+      display: inline-block;
+      color: $addressFontColor;
+      font: $addressFont;
+
+    }
+    .receiverMobileTitle {
+      display: inline-block;
+      color: $addressFontColor;
+      font: $addressFont;
+    }
+  }
+  .receiverPostalCode {
+    direction: rtl;
+    border: 1px solid #ddd;
+    padding-right: $addressTableRightPadding;
+    padding-top: $addressTablePadding;
+    padding-bottom: $addressTablePadding;
+    color: $addressFontColor;
+    font: $addressFont;
+
+    .receiverPostalCodeTitle {
+      display: inline-block;
+      color: $addressFontColor;
+      font: $addressFont;
+
+    }
+    .receiverPostalCodeNumber {
+      display: inline-block;
+      color: $addressFontColor;
+      font: $addressFont;
+
+    }
+  }
+}
+
+.r {
+  display: inline-block;
+  width: 70%;
+
+  .upRight {
+    display: inline-block;
+    width: 100%;
+
+    .receiverName {
+      display: inline-block;
+      border: 1px solid #ddd;
+      direction: rtl;
+      width: 35.3%;
+      //padding: $addressTablePadding 0;
+      padding-right: $addressTableRightPadding;
+      padding-top: $addressTablePadding;
+      padding-bottom: $addressTablePadding;
+
+      .receiverNameTitle {
+        display: inline-block;
+        color: $addressFontColor;
+        font: $addressFont;
+      }
+      .receiverNameName {
+        display: inline-block;
+        color: $addressFontColor;
+        font: $addressFont;
+      }
+    }
+
+    .receiverPhone {
+      display: inline-block;
+      border: 1px solid #ddd;
+      direction: rtl;
+      width: 60%;
+      padding-right: $addressTableRightPadding;
+      padding-top: $addressTablePadding;
+      padding-bottom: $addressTablePadding;
+
+      .receiverPhoneNumber {
+        display: inline-block;
+        color: $addressFontColor;
+        font: $addressFont;
+      }
+      .receiverPhoneTitle {
+        direction: rtl;
+        color: $addressFontColor;
+        font: $addressFont;
+        display: inline-block;
+
+      }
+    }
+  }
+
+  .address {
+    border: 1px solid #ddd;
+    direction: rtl;
+    padding-right: $addressTableRightPadding;
+    padding-top: $addressTablePadding;
+    padding-bottom: $addressTablePadding;
+
+    .receiverAddressTitle {
+      color: $addressFontColor;
+      font: $addressFont;
+      direction: rtl;
+      display: inline-block;
+
+    }
+    .receiverAddressAddress {
+      color: $addressFontColor;
+      font: $addressFont;
+      direction: rtl;
+      display: inline-block;
+
+    }
+  }
+}
+
+.rr {
+  border: 1px solid #ddd;
+  direction: rtl;
+  padding: 60px 11px 13px 10px;
+  display: inline-block;
+}
+
+.editButton {
+  padding: 11px 0;
+  border: 1px solid #ddd;
+  width: 30px;
+  text-align: center;
+  background-color: #fafafa;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.closeButton {
+  padding: 12px 0;
+  text-align: center;
+  background-color: #fafafa;
+  border: 1px solid #ddd;
+  width: 30px;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.addAddress {
+  width: 200px;
+  padding: 10px 20px;
+  border-radius: 25px;
+  background-color: blue;
+  color: white;
+  font: 15px/150% Shabnam;
+  margin-left: 215px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  &:hover {
+    cursor: pointer;
+    font-weight: bold;
+  }
+}
+
+.orders {
+  margin: 0 auto;
+  width: 1350px;border-collapse:separate; border-spacing: 0 8px;
+  th {
+    background-color: #ccc;
+    padding: 10px 0;
+    border: none;
+    font: 20px/150% Shabnam;
+    outline: none;
+  }
+  td {
+    text-align: center;
+    direction: rtl;
+    padding: 10px 0;
+    border: none;
+    font: 20px/150% Shabnam;
+    background-color: #e2eff4;
+  }
+  tr{
+    margin-bottom: 15px;
+
+  }
+  .orderStatus {
+    color: #00bcd4;
+  }
+  .orderAction {
+    background-color: blue;
+    width: 120px;
+    color: white;
+    font: 15px/150% Shabnam;
+    margin: 0 auto;
+    padding: 5px 0;
+    border-radius: 20px;
+  }
+
+}

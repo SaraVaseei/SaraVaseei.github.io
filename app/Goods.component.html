@@ -1,0 +1,284 @@
+<app-nav></app-nav>
+<div class="leftSide">
+    <div class="categoryName">نام دسته</div>
+    <div class="sort-pages">
+        <div class="pages">
+            <div class="next">صفحه بعد ◀</div>
+            <div id="pageNumber">صفحه ۱ از ۱۲۸</div>
+            <div class="next">▶ صفحه قبل</div>
+        </div>
+        <div class="sort">
+            <div>مرتب سازی</div>
+            <select>
+                <option>محبوب ترین</option>
+                <option>پرفروش ترین</option>
+                <option>گرانترین</option>
+                <option>ارزان ترین</option>
+            </select>
+        </div>
+    </div>
+    <div class="products">
+        <div class="percentage" style="position: absolute;
+    left: 310px;
+    top: 280px;">N%
+        </div>
+        <img src="/assets/images/dress.jpg">
+        <div class="about">
+            <div><b>نام برند</b></div>
+            <div style="color: grey">نام محصول</div>
+            <div style="display: inline-block;    font: 12px/150% Shabnam;color: deeppink">قیمت بعد تخفیف</div>
+            <div style="display: inline-block;    font: 12px/150% Shabnam;"><s>قیمت قبل تخفیف </s></div>
+            <div style="color: deeppink">تومان</div>
+        </div>
+    </div>
+    <div class="products">
+        <div class="percentage" style="position: absolute;
+    left: 595px;
+    top: 280px;">N%
+        </div>
+        <img src="/assets/images/dress.jpg">
+        <div class="about">
+            <div><b>نام برند</b></div>
+            <div style="color: grey">نام محصول</div>
+            <div style="display: inline-block;    font: 12px/150% Shabnam;color: deeppink">قیمت بعد تخفیف</div>
+            <div style="display: inline-block;    font: 12px/150% Shabnam;"><s>قیمت قبل تخفیف </s></div>
+            <div style="color: deeppink">تومان</div>
+        </div>
+    </div>
+    <div class="products">
+        <div class="percentage" style="position: absolute;
+    left: 880px;
+    top: 280px;">N%
+        </div>
+        <img src="/assets/images/dress.jpg">
+        <div class="about">
+            <div><b>نام برند</b></div>
+            <div style="color: grey">نام محصول</div>
+            <div style="display: inline-block;    font: 12px/150% Shabnam;color: deeppink">قیمت بعد تخفیف</div>
+            <div style="display: inline-block;    font: 12px/150% Shabnam;"><s>قیمت قبل تخفیف </s></div>
+            <div style="color: deeppink">تومان</div>
+        </div>
+    </div>
+    <div class="products">
+        <div class="percentage" style="position: absolute;
+    left: 1160px;
+    top: 280px;">N%
+        </div>
+        <img src="/assets/images/dress.jpg">
+        <div class="about">
+            <div><b>نام برند</b></div>
+            <div style="color: grey">نام محصول</div>
+            <div style="display: inline-block;    font: 12px/150% Shabnam;color: deeppink">قیمت بعد تخفیف</div>
+            <div style="display: inline-block;    font: 12px/150% Shabnam;"><s>قیمت قبل تخفیف </s></div>
+            <div style="color: deeppink">تومان</div>
+        </div>
+    </div>
+    <div class="products">
+        <div class="percentage" style="position: absolute;
+    left: 310px;
+    top: 690px;">N%
+        </div>
+        <img src="/assets/images/dress.jpg">
+        <div class="about">
+            <div><b>نام برند</b></div>
+            <div style="color: grey">نام محصول</div>
+            <div style="display: inline-block;    font: 12px/150% Shabnam;color: deeppink">قیمت بعد تخفیف</div>
+            <div style="display: inline-block;    font: 12px/150% Shabnam;"><s>قیمت قبل تخفیف </s></div>
+            <div style="color: deeppink">تومان</div>
+        </div>
+    </div>
+
+</div>
+<div class="rightSide">
+    <div class="cats">
+        <div class="cates">دسته بندی ها</div>
+        <div class="openCats" *ngIf=" ! this.categoriesAreOpened" (click)="toggleCategories()">+</div>
+        <div class="openCats" *ngIf="this.categoriesAreOpened" (click)="toggleCategories()">-</div>
+        <div class="nameDaste" *ngIf="this.categoriesAreOpened">
+            <div class="openCatsNames" *ngIf="! this.categoriesNamesAreOpened" (click)="toggleCategoriesNames()">▼</div>
+            <div class="openCatsNames" *ngIf="this.categoriesNamesAreOpened" (click)="toggleCategoriesNames()">▲</div>
+            <div class="catName"> نام دسته</div>
+            <div *ngIf="this.categoriesNamesAreOpened">
+                <div class="openCatsNamess" *ngIf="! this.categoriesNamesAreOpened1" (click)="toggleCategoriesNames1()">
+                    ▼
+                </div>
+                <div class="openCatsNamess" *ngIf="this.categoriesNamesAreOpened1" (click)="toggleCategoriesNames1()">
+                    ▲
+                </div>
+                <div class="nameDasteTwo" (click)="toggleCategoriesNames1()">نام دسته</div>
+                <div *ngIf="this.categoriesNamesAreOpened1">
+                    <div class="nameZirDaste">نام زیردسته</div>
+                    <div class="nameZirDaste">نام زیردسته</div>
+                    <div class="nameZirDaste">نام زیردسته</div>
+                    <div class="nameZirDaste">نام زیردسته</div>
+                </div>
+                <!--<div class="nameDasteTwo">نام دسته</div>-->
+                <!--<div class="nameDasteTwo">نام دسته</div>-->
+                <!--<div class="nameDasteTwo">نام دسته</div>-->
+                <!--<div class="nameDasteTwo">نام دسته</div>-->
+            </div>
+            <div *ngIf="this.categoriesNamesAreOpened">
+                <div class="openCatsNamess" *ngIf="! this.categoriesNamesAreOpened2" (click)="toggleCategoriesNames2()">
+                    ▼
+                </div>
+                <div class="openCatsNamess" *ngIf="this.categoriesNamesAreOpened2" (click)="toggleCategoriesNames2()">
+                    ▲
+                </div>
+                <div class="nameDasteTwo" (click)="toggleCategoriesNames2()">نام دسته</div>
+                <div *ngIf="this.categoriesNamesAreOpened2">
+                    <div class="nameZirDaste">نام زیردسته</div>
+                    <div class="nameZirDaste">نام زیردسته</div>
+                    <div class="nameZirDaste">نام زیردسته</div>
+                    <div class="nameZirDaste">نام زیردسته</div>
+                </div>
+                <!--<div class="nameDasteTwo">نام دسته</div>-->
+                <!--<div class="nameDasteTwo">نام دسته</div>-->
+                <!--<div class="nameDasteTwo">نام دسته</div>-->
+                <!--<div class="nameDasteTwo">نام دسته</div>-->
+            </div>
+            <div *ngIf="this.categoriesNamesAreOpened">
+                <div class="openCatsNamess" *ngIf="! this.categoriesNamesAreOpened3" (click)="toggleCategoriesNames3()">
+                    ▼
+                </div>
+                <div class="openCatsNamess" *ngIf="this.categoriesNamesAreOpened3" (click)="toggleCategoriesNames3()">
+                    ▲
+                </div>
+                <div class="nameDasteTwo" (click)="toggleCategoriesNames3()">نام دسته</div>
+                <div *ngIf="this.categoriesNamesAreOpened3">
+                    <div class="nameZirDaste">نام زیردسته</div>
+                    <div class="nameZirDaste">نام زیردسته</div>
+                    <div class="nameZirDaste">نام زیردسته</div>
+                    <div class="nameZirDaste">نام زیردسته</div>
+                </div>
+                <!--<div class="nameDasteTwo">نام دسته</div>-->
+                <!--<div class="nameDasteTwo">نام دسته</div>-->
+                <!--<div class="nameDasteTwo">نام دسته</div>-->
+                <!--<div class="nameDasteTwo">نام دسته</div>-->
+            </div>
+            <div *ngIf="this.categoriesNamesAreOpened">
+                <div class="openCatsNamess" *ngIf="! this.categoriesNamesAreOpened4" (click)="toggleCategoriesNames4()">
+                    ▼
+                </div>
+                <div class="openCatsNamess" *ngIf="this.categoriesNamesAreOpened4" (click)="toggleCategoriesNames4()">
+                    ▲
+                </div>
+                <div class="nameDasteTwo" (click)="toggleCategoriesNames4()">نام دسته</div>
+                <div *ngIf="this.categoriesNamesAreOpened4">
+                    <div class="nameZirDaste">نام زیردسته</div>
+                    <div class="nameZirDaste">نام زیردسته</div>
+                    <div class="nameZirDaste">نام زیردسته</div>
+                    <div class="nameZirDaste">نام زیردسته</div>
+                </div>
+                <!--<div class="nameDasteTwo">نام دسته</div>-->
+                <!--<div class="nameDasteTwo">نام دسته</div>-->
+                <!--<div class="nameDasteTwo">نام دسته</div>-->
+                <!--<div class="nameDasteTwo">نام دسته</div>-->
+            </div>
+            <div *ngIf="this.categoriesNamesAreOpened">
+                <div class="openCatsNamess" *ngIf="! this.categoriesNamesAreOpened5" (click)="toggleCategoriesNames5()">
+                    ▼
+                </div>
+                <div class="openCatsNamess" *ngIf="this.categoriesNamesAreOpened5" (click)="toggleCategoriesNames5()">
+                    ▲
+                </div>
+                <div class="nameDasteTwo" (click)="toggleCategoriesNames5()">نام دسته</div>
+                <div *ngIf="this.categoriesNamesAreOpened5">
+                    <div class="nameZirDaste">نام زیردسته</div>
+                    <div class="nameZirDaste">نام زیردسته</div>
+                    <div class="nameZirDaste">نام زیردسته</div>
+                    <div class="nameZirDaste">نام زیردسته</div>
+                </div>
+                <!--<div class="nameDasteTwo">نام دسته</div>-->
+                <!--<div class="nameDasteTwo">نام دسته</div>-->
+                <!--<div class="nameDasteTwo">نام دسته</div>-->
+                <!--<div class="nameDasteTwo">نام دسته</div>-->
+            </div>
+
+        </div>
+    </div>
+    <div class="brands">
+        <div class="cates">برندها</div>
+        <div class="openCats" *ngIf=" ! this.brandsAreOpened" (click)="toggleBrands()">+</div>
+        <div class="openCats" *ngIf="this.brandsAreOpened" (click)="toggleBrands()">-</div>
+        <div *ngIf="this.brandsAreOpened">
+            <input class="w3-input" placeholder="جستجو برند" type="text">
+            <div class="check">
+                <input type="checkbox" name="brand1" class="checkButton">
+                <div class="brandName">نام برند</div>
+                <div class="brand">Brand</div>
+            </div>
+            <div class="check">
+                <input type="checkbox" name="brand1" class="checkButton">
+                <div class="brandName">نام برند</div>
+                <div class="brand">Brand</div>
+            </div>
+            <div class="check">
+                <input type="checkbox" name="brand1" class="checkButton">
+                <div class="brandName">نام برند</div>
+                <div class="brand">Brand</div>
+            </div>
+            <div class="check">
+                <input type="checkbox" name="brand1" class="checkButton">
+                <div class="brandName">نام برند</div>
+                <div class="brand">Brand</div>
+            </div>
+            <div class="check">
+                <input type="checkbox" name="brand1" class="checkButton">
+                <div class="brandName">نام برند</div>
+                <div class="brand">Brand</div>
+            </div>
+            <div class="check">
+                <input type="checkbox" name="brand1" class="checkButton">
+                <div class="brandName">نام برند</div>
+                <div class="brand">Brand</div>
+            </div>
+            <div class="check">
+                <input type="checkbox" name="brand1" class="checkButton">
+                <div class="brandName">نام برند</div>
+                <div class="brand">Brand</div>
+            </div>
+            <div class="check">
+                <input type="checkbox" name="brand1" class="checkButton">
+                <div class="brandName">نام برند</div>
+                <div class="brand">Brand</div>
+            </div>
+        </div>
+
+    </div>
+    <div class="colors">
+        <div class="cates">رنگ ها</div>
+        <div class="openCats" *ngIf=" ! this.colorsAreOpened" (click)="toggleColors()">+</div>
+        <div class="openCats" *ngIf="this.colorsAreOpened" (click)="toggleColors()">-</div>
+        <div *ngIf="this.colorsAreOpened" style="padding: 0 10px">
+            <div class="color" style="background-color: black"></div>
+            <div class="color" style="background-color: darkslategray"></div>
+            <div class="color" style="background-color: grey"></div>
+            <div class="color" style="background-color: #ccc"></div>
+            <div class="color" style="background-color: #ddd"></div>
+            <div class="color" style="background-color: white"></div>
+            <div class="color" style="background-color: khaki"></div>
+            <div class="color" style="background-color: pink"></div>
+            <div class="color" style="background-color: green"></div>
+            <div class="color" style="background-color: saddlebrown"></div>
+            <div class="color" style="background-color: red"></div>
+            <div class="color" style="background-color: deeppink"></div>
+            <div class="color" style="background-color: purple"></div>
+            <div class="color" style="background-color: cyan"></div>
+            <div class="color" style="background-color: blue"></div>
+            <div class="color" style="background-color: #000080"></div>
+            <div class="color" style="background-color: yellow"></div>
+            <div class="color" style="background-color: hotpink"></div>
+            <div class="color" style="background-color: brown"></div>
+            <div class="color" style="background-color: orange"></div>
+            <div class="color" style="background-color: olive"></div>
+            <div class="color" style="background-color: lightseagreen"></div>
+            <div class="color" style="background-color: sandybrown"></div>
+            <div class="color" style="background-color: #d4be8d"></div>
+            <div class="color" style="background-color: mediumpurple"></div>
+            <div class="color" style="background-color: transparent"></div>
+
+        </div>
+    </div>
+</div>
+
+<app-foot></app-foot>
